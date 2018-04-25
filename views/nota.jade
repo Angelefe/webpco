@@ -1,0 +1,12 @@
+extends ./layout.jade  
+block contenido  
+  section.articles
+    article
+      h2(align='left', style='background-color: #2E2E2E;color: white; padding: 5px') #{titulo}	
+      br
+      img(src='#{img}', alt='abortolegal', width='600px')
+      br
+      br
+      p #{cuerpo}
+      p
+        a(href='index.html') Volver al inicio
